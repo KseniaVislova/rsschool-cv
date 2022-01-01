@@ -16,7 +16,7 @@
         <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
         <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
         <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a href="#code" class="nav-link">Code examples</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
         <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
         <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
         <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
@@ -24,7 +24,129 @@
       </ul>
     </nav>
   </header>
-  <main class="main"></main>
+  <main class="main">
+    <section class="section" id="profile">
+      <h1 class="section-title">Ksenia Vislova</h1>
+      <h3 class="section-subtitle">Frontend Developer</h3>
+      <img src="./assets/img/me.jpg" alt="Ksenia_Vislova">
+    </section>
+    <section class="section" id="contacts">
+      <h2 class="section-title">Contacts</h2>
+      <ul class="section-list">
+        <li class="section-item">Mineralnye Vody, Russia</li>
+        <li class="section-item">Email: <a href="mailto:kseniavislova@gmail.com"
+            title="mail">kseniavislova@gmail.com</a></li>
+        <li class="section-item">Telegram: <a href="https://t.me/kvislova" title="telegram">kvislova</a></li>
+        <li class="section-item">Twitter: <a href="https://twitter.com/lAmNotKsenia" title="twiiter">lAmNotKsenia</a>
+        </li>
+        <li class="section-item">Vk: <a href="https://vk.com/kseeelis" title="vk">kseeelis</a></li>
+        <li class="section-item">Github <a href="https://github.com/KseniaVislova" title="github">KseniaVislova</a></li>
+        <li class="section-item">Discord: Ksenia Vislova#0831</li>
+      </ul>
+    </section>
+    <section class="section" id="summary">
+      <h2 class="section-title">Summary</h2>
+      <p>
+        I've been studying frontend for last two years. At the moment I am a tutor at a school specializing in teaching
+        the web development. My main goal is getting a job in frontend development.
+      </p>
+    </section>
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="section-list">
+        <li class="section-item">HTML</li>
+        <li class="section-item">CSS</li>
+        <li class="section-item">JavaScript</li>
+        <li class="section-item">GIT</li>
+        <li class="section-item">React</li>
+      </ul>
+    </section>
+    <section class="section" id="code">
+      <h2 class="section-title">Code</h2>
+      <pre class="pre">
+        <code>
+          function digits(n) {
+            return +(n.toString().length);
+          }
+        </code>
+      </pre>
+      <pre class="pre">
+        <code>
+          function areaLargestSquare(r) {
+            return Math.round(Math.sqrt(r**2 + r**2) * Math.sqrt(r**2 + r**2));
+          }
+        </code>
+      </pre>
+      <pre class="pre">
+        <code>
+          function fakeBin(x){
+            const newArr = [];
+            x.split('').forEach(x => {
+              return x >= 5 ? newArr.push(1) : newArr.push(0);
+            })
+            return newArr.join('');
+          }
+        </code>
+      </pre>
+    </section>
+    <section class="section" id="experiance">
+      <h2 class="section-title">Experience</h2>
+      <ul class="section-list">
+        <li class="section-item">
+          Tutor - Web Hero School
+          <span>(September 2021 - now)</span>
+        </li>
+      </ul>
+    </section>
+    <section class="section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <ul class="section-list">
+        <li class="section-item">
+          <img src="./assets/img/react-1.jpg" alt="Board of tiles">
+          <a href="https://react-board-of-tiles.vercel.app/">Board of tiles</a>
+        </li>
+        <li class="section-item">
+          <img src="./assets/img/react-todo.jpg" alt="Todo-list">
+          <a href="https://react-learn-typescript.vercel.app/">Todo-list</a>
+        </li>
+        <li class="section-item">
+          <img src="./assets/img/bug.jpg" alt="Find a bug">
+          <a href="http://kseniavislova.ru/projects/game-2/index.html">Find a bug</a>
+        </li>
+      </ul>
+    </section>
+    <section class="section" id="education">
+      <h2 class="section-title">Education</h2>
+      <ul class="section-list">
+        <li class="section-item">Web Hero School
+          <ul class="section-inner-list">
+            <li class="section-inner-item">HTML (March 2021 - April 2021)</li>
+            <li class="section-inner-item">JS (May 2021 - September 2021)</li>
+            <li class="section-inner-item">React (June 2021 - now)</li>
+          </ul>
+        </li>
+        <li class="section-item">Hexlet
+          <ul class="section-inner-list">
+            <li class="section-inner-item">HTML (September 2020)</li>
+            <li class="section-inner-item">JS (October 2020)</li>
+            <li class="section-inner-item">Bootstrap (November 2020)</li>
+          </ul>
+        </li>
+        <li class="section-item">JetBrains
+          <ul class="section-inner-list">
+            <li class="section-inner-item">Frontend Developer (December 2021 - now)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="section" id="language">
+      <h2 class="section-title">Language</h2>
+      <ul class="section-list">
+        <li class="section-item">Russian (native speaker)</li>
+        <li class="section-item">English (Upper Intermediate)</li>
+      </ul>
+    </section>
+  </main>
   <footer class="footer"></footer>
 </body>
 
