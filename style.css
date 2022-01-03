@@ -341,3 +341,30 @@ a {
 #language .section-list {
   list-style: disc;
 }
+
+.footer {
+  padding: 50px 0;
+  background-color: #fda;
+  border-top: 1px solid #222;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright a {
+  margin-left: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.rss {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  background-image: url('./assets/img/rs_school_js.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
