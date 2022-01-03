@@ -1,0 +1,387 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: #c23d18;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 0;
+  background-color: #fda;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.nav-item {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.main-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  padding: 50px 30px;
+  border: 1px solid #fda;
+}
+
+.section:first-child {
+  width: 100%;
+  padding: 100px 30px;
+}
+
+.section:nth-child(3n + 2) {
+  background-color: #fda;
+}
+
+.section-inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-title {
+  margin-top: 0;
+  padding: 0 0 20px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid #222;
+}
+
+.section-subtitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+}
+
+.main-title {
+  font-size: 50px;
+  border-bottom: 5px solid #fda;
+}
+
+.main-img {
+  border-radius: 100px;
+  box-shadow: 0 0 10px #222;
+}
+
+.section-list {
+  padding-left: 50px;
+}
+
+.section-item {
+  position: relative;
+}
+
+.section-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.location::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/Location.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mail::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/Gmail.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.telegram::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/Telegram.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.twitter::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/Twitter.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.vk::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/Vk.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.github::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/Github.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.discord::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/Discord.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.html::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/html.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.css::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/css.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.javascript::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/javascript.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.git::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/git.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.react::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/react.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bootstrap::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -25px;
+  background-image: url('./assets/img/bootstrap.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#code {
+  width: 100%;
+  background-color: #fda;
+}
+
+.pre {
+  width: 100%;
+  display: block;
+  border: 1px solid #222;
+}
+
+#projects {
+  width: 100%;
+}
+
+#projects .section-list {
+  padding: 0;
+}
+
+#projects .section-item {
+  width: 80%;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #fda;
+}
+
+.pfoject-title {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.projects-links {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-links a {
+  display: block;
+  padding: 5px 10px;
+  color: #fda;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #222;
+  border: 1px solid #222;
+}
+
+.projects-links a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.img {
+  display: block;
+  width: 95%;
+  margin: 0 auto 15px;
+}
+
+#education .section-list {
+  list-style: disc;
+}
+
+#education .section-inner-list {
+  padding-left: 25px;
+}
+
+.section-inner-item {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+#language .section-list {
+  list-style: disc;
+}
+
+.footer {
+  padding: 50px 0;
+  background-color: #fda;
+  border-top: 1px solid #222;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright a {
+  margin-left: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.rss {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  background-image: url('./assets/img/rs_school_js.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
