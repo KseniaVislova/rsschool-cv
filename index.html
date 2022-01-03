@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="main-inner">
+        <section class="section" id="profile">
+          <div class="section-inner">
+            <div>
+              <h1 class="section-title main-title">Ksenia Vislova</h1>
+              <h3 class="section-subtitle">Frontend Developer</h3>
+            </div>
+            <img class="main-img" src="./assets/img/me.jpg" alt="Ksenia_Vislova">
+          </div>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item location">Mineralnye Vody, Russia</li>
+            <li class="section-item mail">Email: <a href="mailto:kseniavislova@gmail.com"
+                title="mail">kseniavislova@gmail.com</a></li>
+            <li class="section-item telegram">Telegram: <a href="https://t.me/kvislova" title="telegram">kvislova</a>
+            </li>
+            <li class="section-item twitter">Twitter: <a href="https://twitter.com/lAmNotKsenia"
+                title="twiiter">lAmNotKsenia</a>
+            </li>
+            <li class="section-item vk">Vk: <a href="https://vk.com/kseeelis" title="vk">kseeelis</a></li>
+            <li class="section-item github">Github <a href="https://github.com/KseniaVislova"
+                title="github">KseniaVislova</a>
+            </li>
+            <li class="section-item discord">Discord: Ksenia Vislova#0831</li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            I've been studying frontend for last two years. At the moment I am a tutor at a school specializing in
+            teaching
+            the web development. My main goal is getting a job in frontend development.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item html">HTML</li>
+            <li class="section-item css">CSS</li>
+            <li class="section-item javascript">JavaScript</li>
+            <li class="section-item git">GIT</li>
+            <li class="section-item react">React</li>
+            <li class="section-item bootstrap">Bootstrap</li>
+          </ul>
+        </section>
+        <section class="section" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              Tutor - Web Hero School
+              <span>(September 2021 - now)</span>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre class="pre">
+          <code>
+            function digits(n) {
+              return +(n.toString().length);
+            }
+          </code>
+       </pre>
+          <pre class="pre">
+          <code>
+            function areaLargestSquare(r) {
+              return Math.round(Math.sqrt(r**2 + r**2) * Math.sqrt(r**2 + r**2));
+            }
+          </code>
+        </pre>
+          <pre class="pre">
+          <code>
+            function fakeBin(x){
+              const newArr = [];
+              x.split('').forEach(x => {
+                return x >= 5 ? newArr.push(1) : newArr.push(0);
+              })
+              return newArr.join('');
+            }
+          </code>
+        </pre>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              <img class="img" src="./assets/img/react-1.jpg" alt="Board of tiles">
+              <h4 class="pfoject-title">Board of tiles</h4>
+              <div class="projects-links">
+                <a href="https://react-board-of-tiles.vercel.app/">Site</a>
+                <a href="https://github.com/KseniaVislova/react-board-of-tiles">Github</a>
+              </div>
+
+            </li>
+            <li class="section-item">
+              <img class="img" src="./assets/img/react-todo.jpg" alt="Todo-list">
+              <h4 class="pfoject-title">Todo-list</h4>
+              <div class="projects-links">
+                <a href="https://react-learn-typescript.vercel.app/">Site</a>
+                <a href="https://github.com/KseniaVislova/react-learn-typescript">Github</a>
+              </div>
+            </li>
+            <li class="section-item">
+              <img class="img" src="./assets/img/bug.jpg" alt="Find a bug">
+              <h4 class="pfoject-title">Find a bug</h4>
+              <div class="projects-links">
+                <a href="http://kseniavislova.ru/projects/game-2/index.html">Site</a>
+                <a href="https://github.com/WebHeroSchool/JS_Game_Vislova">Github</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="section-list">
+            <li class="section-item">Web Hero School
+              <ul class="section-inner-list">
+                <li class="section-inner-item html">HTML (March 2021 - April 2021)</li>
+                <li class="section-inner-item javascript">JS (May 2021 - September 2021)</li>
+                <li class="section-inner-item react">React (June 2021 - now)</li>
+              </ul>
+            </li>
+            <li class="section-item">Hexlet
+              <ul class="section-inner-list">
+                <li class="section-inner-item html">HTML (September 2020)</li>
+                <li class="section-inner-item javascript">JS (October 2020)</li>
+                <li class="section-inner-item bootstrap">Bootstrap (November 2020)</li>
+              </ul>
+            </li>
+            <li class="section-item">JetBrains
+              <ul class="section-inner-list">
+                <li class="section-inner-item html">Frontend Developer (December 2021 - now)</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="language">
+          <h2 class="section-title">Language</h2>
+          <ul class="section-list">
+            <li class="section-item">Russian (native speaker)</li>
+            <li class="section-item">English (Upper Intermediate)</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright">© 2022 <a href="https://github.com/KseniaVislova" title="github">KseniaVislova</a></p>
+      <a href="https://rs.school/js/" class="rss"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
